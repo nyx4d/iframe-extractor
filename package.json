@@ -1,0 +1,21 @@
+{
+  "name": "iframe-extractor",
+  "version": "1.0.0",
+  "description": "A robust tool to extract, categorize, and log iframe sources from web pages",
+  "main": "src/index.js",
+  "bin": {
+    "iframe-extractor": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nyx4d",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "mysql2": "^3.0.0",
+    "jsdom": "^21.0.0",
+    "dotenv": "^16.0.0",
+    "winston": "^3.0.0"
+  }
+}
